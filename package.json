@@ -1,0 +1,22 @@
+{
+  "name": "superlearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "@google-cloud/translate": "^6.2.2",
+    "json2csv": "^5.0.6",
+    "pinyin": "^2.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix src/",
+    "csv": "node src/convert_json_to_csv.js",
+    "translate": "node src/translate_word_list.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
