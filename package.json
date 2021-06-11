@@ -16,7 +16,8 @@
   "scripts": {
     "lint": "eslint --fix src/",
     "csv": "node src/convert_json_to_csv.js",
-    "translate": "node src/translate_word_list.js"
+    "translate": "node src/translate_word_list.js",
+    "tts": "node src/convert_json_to_tts.js"
   },
   "author": "",
   "license": "ISC"
