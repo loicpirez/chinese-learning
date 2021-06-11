@@ -15,7 +15,7 @@ function hanziToTTS(hanzi, id) {
         return console.error(err);
       }
 
-      console.log(`${hanzi} #${id} TTS has been saved.`);
+      console.log(`${hanzi} #${id} TTS have been saved.`);
     }
   );
 }
